@@ -1,0 +1,373 @@
+*{margin: 0;padding: 0;}
+
+body {
+    background: rgb(241, 241, 241);
+}
+
+.wrapper {
+    width: 97%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*    ----HEADER----    */
+
+
+header {
+    width: 100%;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+/*    ----LUCES DEBAJO DEL HEADER----    */
+
+
+.sombra::after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: ' ';
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
+    width: 100%;
+    height: 7%;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+
+/*    ----aca sigue el header----    */
+
+
+div .logo {
+    float: left;
+    margin-left: 1.4%;
+    margin-top: 9px;
+}
+
+div .titulo {
+    float: left;
+    font-family: 'Sassy Stark';
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 3px;
+    font-size: 23px;
+}
+
+div .titulo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header nav {
+    float: right;
+    line-height: 50px;
+    margin-right: 15px;
+}
+
+header nav a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 05px 15px;
+    margin-left: 15px;
+    line-height: normal;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 700ms ease;
+}
+
+header nav .animacion:hover {
+    color: #0099bb;
+}
+
+
+/*    ----Buscador dentro del Header----    */
+
+
+fieldset {
+    background: white;
+    border: 1px solid #333;
+    padding: 0 0 0 10px;
+    border-radius: 3px;
+}
+
+input, button {
+    position: relative;
+    height: 30px;
+    padding: 0px;
+    width: 350px;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    width: 350px;
+    height: 28px;
+    font-size: 17px;
+    border: none;
+}
+
+button {
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 65px;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;   
+}
+
+fa-search {
+    color: teal;
+}
+
+input:focus{
+    outline: none;
+}
+
+.header {
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */          
+    line-height: 25px;
+    border-radius: 3px;
+}
+
+
+/*    ----Configuración de los titulos----    */
+
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+h4 {
+    font-size: 19px;
+    margin-top: 6px;
+    width: 645px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+h5 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 275px;
+    margin-top: 6px;
+    color: rgb(0, 0, 0);
+    padding-left: 3px;
+}
+
+
+
+/*    ----Sección de Tendencias----    */
+
+
+
+.encajado {
+    display: inline-block;
+    width: 100%;
+    height: 430px;
+    background: rgb(241, 241, 241);
+}
+.promocion {
+    float: right;
+    margin: 0px;
+    height: 430px;
+} 
+
+.principal {
+    width: 640px;
+    height: 370px;
+    background: rgb(207, 207, 207);
+    float: left;
+}
+
+.caja {
+    width: 295px;
+    height: 155px;
+    background: rgb(207, 207, 207);
+    margin-left: 10px;
+    margin-bottom: 60px;
+    float: left;
+}
+
+
+.principal a {
+    text-decoration: none;
+}
+
+.caja a {
+    text-decoration: none;
+}
+
+
+
+/*   ----Separador----    */
+
+
+
+hr {
+    text-align: center;
+    width: 25%;
+    height: 1.5px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+
+/*    ----Sección de videos de suscripciones----    */
+
+
+.contenedor {
+    float: left;
+    width: auto;
+    height: 155px;
+    margin: 5px;
+    margin-bottom: 70px;
+}
+
+.contenedor a {
+    text-decoration: none;
+}
+
+
+
+/*    ----Sección de Recomendaciones----    */
+
+
+.sugerencia {
+    float: left;
+    width: auto;
+    height: 155px;
+    margin: 5px;
+    margin-bottom: 70px;
+}
+
+.sugerencia a {
+    text-decoration: none;
+}
+
+.segundapromocion {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    float: right;
+}
+
+
+/*    ----Sección de 2da reomendaciones----    */
+
+
+.sugerenciados {
+    float: left;
+    width: auto;
+    height: 155px;
+    margin: 5px;
+    margin-bottom: 70px;
+}
+
+.sugerenciados a {
+    text-decoration: none;
+}
+
+
+/*    ----Publicidad y 2 videos más de la sección Gaming----     */
+
+
+.creador {
+    width: auto;
+    height: 225px;
+}
+
+.tercerapromocion a {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.sugerenciatres {
+    float: right;
+    height: 155px;
+    margin: 5px;
+    margin-bottom: 70px;
+}
+
+
+/*    ----Sección Música----    */
+
+
+.sextafila {
+    float: left;
+    width: auto;
+    height: 155px;
+    margin: 5px;
+    margin-bottom: 100px;
+}
+
+.sextafila a {
+    text-decoration: none;
+}
+
+.segundapromocion {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    float: right;
+
+}
+
+
+/*     ----Footer----    */
+
+
+.footer {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+     
+}
+
+.item {
+    font-size: 25px;
+    padding-left: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.item h6 {
+    color: white;
+}
+
+.itemdos h6 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.itemdos {
+    font-size: 25px;
+    padding-left: 45px;
+    padding-top: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+
+

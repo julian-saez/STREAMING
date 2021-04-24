@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'SassyStark';
+    src: url(miniaturas/SassyStark.ttf);
+}
+
+@font-face {
+    font-family: 'SansibarCX-Condensed';
+    src: url(miniaturas/SansibarCX-Condensed.ttf);
+}
+
+@font-face {
+    font-family: 'Gadugi';
+    src: url(miniaturas/gadugi.ttf);
+}
