@@ -11,5 +11,3 @@ Luego:
 - *live-server public/index.html*
 
 Puedes navegar por las demás páginas en el nav o manualmente por los directorios.
-
-### ***Dont wish for it, work for it***
